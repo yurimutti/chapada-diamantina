@@ -1,0 +1,8 @@
+1 - Segundo botão/Git Bash Here
+2 - git config --global user.name"yurimutti"
+3 - git config --global user.mail"muttiyuri@gmail.com"
+4 - git init
+5 - git remote add origin https://github.com/yurimutti/ChapadaDiamantina.git
+6 - git pull origin master
+7 - git add .
+8 - git commit -m "0.1"
