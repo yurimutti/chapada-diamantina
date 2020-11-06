@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link href="dist/hamburgers.css" rel="stylesheet">
+  <link href="css/simple-anime.css" rel="stylesheet">
   <title>Chapada Diamantina</title>
 </head>
 
@@ -23,9 +23,9 @@
       </nav>
     </div>
     <div class="hero">
-      <h1>Chapada</h1>
-      <p>Diamantina</p>
-      <button>Saiba mais</button>
+      <h1 data-anime="400" class="fadeInDown">Chapada</h1>
+      <p data-anime="800" class="fadeInDown">Diamantina</p>
+      <button data-anime="1200" class="fadeInDown">Saiba mais</button>
     </div>
   </header>
 
@@ -65,29 +65,29 @@
   <section class="ondeficar container" id="ondeficar">
     <h2 class="subtitulo">Onde Ficar</h2>
     <div class="hotel-wrapper">
+      <div class="hotel">
+        <img src="img/hotel-img.png" alt="Foto da chapada">
+        <h3>Hotel da chapada</h3>
+        <p>Localizado no centro de Lençóis, com vista panorâmica do Parque Nacional da Chapada Diamantina</p>
+        <a href="#">Solicitar reserva</a>
+      </div>
+      <div class="hotel">
+        <img src="img/hotel-img.png" alt="Foto da chapada">
+        <h3>Hotel da chapada</h3>
+        <p>Localizado no centro de Lençóis, com vista panorâmica do Parque Nacional da Chapada Diamantina</p>
+        <a href="#">Solicitar reserva</a>
+      </div>
       <div class="hotel destaque">
         <img src="img/hotel-img.png" alt="Foto da chapada">
         <h3>Hotel da chapada</h3>
         <p>Localizado no centro de Lençóis, com vista panorâmica do Parque Nacional da Chapada Diamantina</p>
-        <a href="#">Visualizar preços</a>
+        <a href="#">Solicitar reserva</a>
       </div>
       <div class="hotel">
         <img src="img/hotel-img.png" alt="Foto da chapada">
         <h3>Hotel da chapada</h3>
         <p>Localizado no centro de Lençóis, com vista panorâmica do Parque Nacional da Chapada Diamantina</p>
-        <a href="#">Visualizar preços</a>
-      </div>
-      <div class="hotel">
-        <img src="img/hotel-img.png" alt="Foto da chapada">
-        <h3>Hotel da chapada</h3>
-        <p>Localizado no centro de Lençóis, com vista panorâmica do Parque Nacional da Chapada Diamantina</p>
-        <a href="#">Visualizar preços</a>
-      </div>
-      <div class="hotel">
-        <img src="img/hotel-img.png" alt="Foto da chapada">
-        <h3>Hotel da chapada</h3>
-        <p>Localizado no centro de Lençóis, com vista panorâmica do Parque Nacional da Chapada Diamantina</p>
-        <a href="#">Visualizar preços</a>
+        <a href="#">Solicitar reserva</a>
       </div>
 
     </div>
@@ -106,6 +106,8 @@
     <p>O seu melhor guia para se divertir na Chapada Diamantina</p>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

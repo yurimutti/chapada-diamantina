@@ -26,7 +26,7 @@ html {
 html,
 body {
   font-family: "Open Sans", sans-serif;
-  background: var(--main-bg-color);
+  background: var(--main-bg-color ); 
 }
 
 body {
@@ -103,6 +103,7 @@ img {
   margin-left: 30px;
   padding: 10px;
   display: block;
+  transition: transform .3s ease;
 }
 
 .navbar li:first-child a {
@@ -111,6 +112,7 @@ img {
 
 .navbar ul a:hover {
   color: var(--color-primary);
+  transform: translateY(5px);
 }
 
 .hero {
@@ -163,9 +165,6 @@ img {
   background: #d14a1f;
 }
 
-.hamburger {
-  visibility: hidden;
-}
 
 /* SOBRE */
 .sobre {
@@ -253,16 +252,20 @@ img {
 
 .hotel a {
   display: block;
-  color: var(--color-primary);
   font-size: 1.6rem;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
+  text-transform: uppercase;
   margin-bottom: 30px;
+  color: var(--white);
+  padding: 15px 0;
+  background: var(--color-primary);
+  transition: background .3s ease-in-out;
 }
 
 .hotel a:hover {
-  text-decoration: underline;
+  background: #d14a1f;
 }
 
 .destaque::before {
@@ -324,9 +327,8 @@ img {
   background: var(--color-primary);
 }
 
-/* RESPONSIVO */
+/* MOBILE */
 
-/* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .hero {
     margin-top: 60px;
@@ -363,3 +365,6 @@ img {
     text-align: center;
   }
 }
+
+/* DESKTOP */
+
