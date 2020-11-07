@@ -90,7 +90,7 @@ a {
   padding-top: 15px;
 }
 
-.navbar span {
+.navbar  .logo  {
   font-size: 2.4rem;
   color: var(--white);
   font-weight: bold;
@@ -108,7 +108,7 @@ a {
   margin-left: 30px;
   padding: 10px;
   display: block;
-  transition: transform .3s ease;
+  transition: color .2s ease;
 }
 
 .navbar li:first-child a {
@@ -117,7 +117,6 @@ a {
 
 .navbar ul a:hover {
   color: var(--color-primary);
-  transform: translateY(5px);
 }
 
 .hero {
@@ -253,6 +252,19 @@ a {
   color: var(--main-txt-color);
   margin: 0 auto;
   padding-bottom: 30px;
+}
+
+.ondeficar img {
+  border-radius: 6px 6px 0 0;
+}
+
+.ondeficar a {
+  transition: transform .6s;
+}
+
+.ondeficar a:hover {
+  transform: scale(1.05);
+  z-index: 999;
 }
 
 .destaque::before {
