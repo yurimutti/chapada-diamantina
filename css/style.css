@@ -91,7 +91,7 @@ a {
 }
 
 .navbar  .logo  {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
   color: var(--white);
   font-weight: bold;
 }
@@ -338,18 +338,25 @@ a {
   }
 
   .navbar ul a {
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
     padding-top: 30px;
-    margin-left: 20px;
-    flex-wrap: wrap;
+    margin: 0;
     padding-left: 0;
+    max-width:800px;
   }
-
+  .navbar li:nth-child(even) {
+    margin-left: 30px;
+  }
   .navbar span {
     font-size: 3.4rem;
 }
   .sobre p {
     text-align: center;
+  }
+  .hero h1 {
+    font-size: 5.5rem;
   }
 }
 
