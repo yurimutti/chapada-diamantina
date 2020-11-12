@@ -328,7 +328,7 @@ a {
 
 /* MOBILE */
 
-@media (max-width: 576px) {
+@media (max-width: 614px) {
   .hero {
     margin-top: 60px;
   }
