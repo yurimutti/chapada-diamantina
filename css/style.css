@@ -330,9 +330,6 @@ a {
 /* MOBILE */
 
 @media (max-width: 630px) {
-    .hero p::before, .hero p::after {
-    display: none !important;
-     }
     .hero {
       margin-top: 60px;
     }
@@ -374,7 +371,11 @@ a {
       margin: 0 auto;
       padding-bottom: 20px;
   }
+    .hero p::before, .hero p::after {
+    display: none;
+  }
 }
+
 
 @media (max-width: 1017px) {
   .sobre>div {
