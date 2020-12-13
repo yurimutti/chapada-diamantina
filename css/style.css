@@ -97,13 +97,13 @@ a {
   letter-spacing: 3px;
 }
 
-.header  ul {
+.menu  ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
 
-.navbar ul a {
+.menu ul a {
   color: var(--white);
   text-decoration: none;
   margin-left: 30px;
@@ -112,11 +112,11 @@ a {
   transition: color .2s ease;
 }
 
-.header  li:first-child a {
+.menu  li:first-child a {
   margin-left: 0px;
 }
 
-.header  ul a:hover {
+.menu  ul a:hover {
   color: var(--color-primary);
 }
 
