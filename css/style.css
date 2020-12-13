@@ -103,7 +103,7 @@ a {
   list-style: none;
 }
 
-.menu ul a {
+.header ul a {
   color: var(--white);
   text-decoration: none;
   margin-left: 30px;
@@ -112,11 +112,11 @@ a {
   transition: color .2s ease;
 }
 
-.menu  li:first-child a {
+.header  li:first-child a {
   margin-left: 0px;
 }
 
-.menu  ul a:hover {
+.header  ul a:hover {
   color: var(--color-primary);
 }
 
