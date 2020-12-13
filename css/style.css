@@ -335,6 +335,7 @@ a {
     }
 
     .menu {
+      display:block;
       max-width:400px;
     }
 
