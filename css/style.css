@@ -371,9 +371,9 @@ a {
     margin: 0 auto;
     padding-bottom: 20px;
 }
+  .hero p::before, .hero p::after {
+    display: none;
 }
-.hero p::before, .hero p::after {
-  display:none;
 }
 
 @media (max-width: 1017px) {
